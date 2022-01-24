@@ -1,0 +1,205 @@
+:root {
+    --sp-light-grey: #F2F2F2;
+    --sp-pale-lavendar: #decaffa3;
+    --sp-magnolia: #F8F1FF;
+    --sp-antiflash: #F2F2F2;
+    --sp-light-cyan: #DDFFFE;
+    --sp-cosmic-latte: #FFF9EB;
+    --sp-papaya-whip: #FFF3D3;
+    --sp-misty-rose: #FFE0E0;
+}
+.sp-bg-light-grey {
+    background-color: var(--sp-light-grey);
+}
+.sp-half-white{
+    background-color:#ffffff40; 
+}
+.sp-bg-misty-rose{
+    background-color: var(--sp-misty-rose);
+}
+.sp-bg-pale-lavendar{
+    background-color: var(--sp-pale-lavendar);
+}
+.sp-bg-magnolia{
+    background-color: var(--sp-magnolia);
+}
+.sp-bg-antiflash{
+    background-color: var(--sp-antiflash);
+}
+.sp-bg-light-cyan{
+    background-color: var(--sp-light-cyan);
+}
+.sp-bg-cosmic-latte{
+    background-color: var(--sp-cosmic-latte);
+}
+.sp-bg-papaya-whip{
+    background-color: var(--sp-papaya-whip);
+}
+.sp-navbar-supportpro {
+    background-color: var(--sp-antiflash);
+    position: relative;
+}
+.sp-navbar-incubate {
+    background-color: var(--sp-light-cyan);
+    position: relative;
+}
+.sp-navbar-reccords{
+    background-color: var(--sp-pale-lavendar);
+    position: relative;
+}
+.sp-navbar-distribute{
+    background-color: var(--sp-papaya-whip);
+    position: relative;
+}
+.sp-navbar-affils{
+    background-color: var(--sp-misty-rose);
+    position: relative;
+}
+
+  .accordion-button:not(.collapsed)::after {
+    background-image: none;
+  }
+  .accordion-button::after {
+    background-image: none;
+  }
+  .accordion-button:focus {
+    outline: none;
+    box-shadow: none;
+  }
+
+
+
+
+.accordion-btn {
+    /*background-color: #eee;*/
+    background-color: transparent;
+    color: #444;
+    cursor: pointer;
+    padding: 14px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion-btn:hover {
+    background-color: #ccc;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .acc-panel {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+  }
+  .show{
+      display:block;
+  }
+
+
+
+
+  .sp-h-100{
+      height:100px;
+  }
+  .sp-w-100{
+      width:100px;
+  }
+  .sp-h-40{
+    height:40px;
+}
+.sp-w-40{
+    width:40px;
+}
+
+
+
+
+.sp-bright-blue{
+    background-color:#F8F1FF;
+}
+
+.sp-accordion-button{
+    border:2px solid #e9ecef;
+    margin-bottom:15px;
+}
+.sp-contactform-input{
+    border:none;
+    border-bottom:1px solid #CFCFCF;
+}
+.sp-contactform-input2{
+    border:1px solid #CFCFCF;
+}
+.sp-contactform-textarea{
+    border:1px solid #CFCFCF;
+    height:200px;
+}
+.sp-bg-light-resp-blue{
+    background-color: var(--sp-light-blue);
+}
+.form-control {
+    display: block;
+    width: 100%;
+    padding:13px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border:1px solid white;
+    border-radius: 0;
+    border:1px solid #e9ecef;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  .form-control-border{
+    /*border: 1px solid #ced4da;*/
+    border:1px solid #e9ecef;
+  }
+  
+
+
+
+
+
+  
+  /* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .sp-d-sm-none{
+        display:none;
+    }
+    .sp-mt-sm{
+        margin-top:40px;
+    }
+    .sp-bg-light-resp-blue{
+        background-color:white;
+    }
+    .sp-dnone{
+        border:2px solid red;
+        visibility:hidden;
+    }
+    .text-center-resp{
+        text-align:center;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 767.98px) {
+    .sp-distribute-content2{
+        transform:translatey(120px);
+        transition: transform 1s linear;
+    }
+    .sp-distribute-content1{
+        transition: transform 1s linear;
+        transform:translatey(70px);
+    }
+}
+
+.sp-distribute-container:hover .sp-distribute-content2{
+    transform:translatey(0px);
+}
+
+.sp-distribute-container:hover .sp-distribute-content1{
+    transform:translatey(0px);
+}
