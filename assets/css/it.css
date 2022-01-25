@@ -192,8 +192,8 @@
     }
     .sp-distribute-content1{
         transform:translatey(70px);
+        
         transition: transform 1s linear;
-
 
     }
 }
